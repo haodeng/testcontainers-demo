@@ -7,7 +7,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.utility.DockerImageName;
 
 @Testcontainers
-public class TestContainersDemo {
+public class RedisContainerTestDemo {
     private RedisBackedCache underTest;
 
     @Container
